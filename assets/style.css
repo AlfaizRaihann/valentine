@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;500;700;800&family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f9f4ec;
+    overflow: hidden;
+    padding: 0!important;
+}
+
+h2 {
+    font-weight: 800;
+} 
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #C98860;
+    border-radius: 6px;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif!important;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", cursive!important;
+}
+
+.happy {
+    font-weight: 800;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.happy-graduation {
+    position: relative;
+    left: -100%;
+    transition: 1s;
+}
+
+
+.sub-head {
+    position: relative;
+    font-size: 50px;
+    top: -40px;
+    left: 65px;
+    color: #cea564;
+    transition: 1s; 
+    left: -100%;
+}
+
+.sub-head-kado {
+    position: relative;
+    font-size: 50px;
+    top: -40px;
+    color: #cea564; 
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.hero p {
+    position: relative;
+    font-size: 17px;
+    top: -40px;
+    left: -120%;
+    transition: 1s;
+}
+
+.hero a {
+    position: relative;
+    left: -100%;
+    transition: 1s;
+}
+
+.text-section {
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.text-section a {
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 17px;
+    border: 1px solid #C98860;
+    background-color: transparent;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.text-section a:hover {
+    background-color: #C98860;
+    color: white;
+}
+
+.containerIsiKado a, .sectionCinema a, .sectionJalan a, .sectionGame a {
+    position: absolute;
+    right: 20%;
+    top: 20px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 17px;
+    border: 1px solid #C98860;
+    background-color: white;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+}
+
+.containerIsiKado a:hover, .sectionCinema a:hover, .containerIsiMotor a:hover, .sectionGame a:hover {
+    background-color: #C98860;
+    color: white;
+}
+
+.hero .kananAtas {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hero .kiriBawah {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.UmiCollage {
+    width: 65%;
+    margin-top: 40px;
+    margin-left: 40px;
+    transition: 1s;
+    position: relative;
+    left: 100%;
+}
+
+.sectionUcapan .mainImageUcapan {
+    position: relative;
+    top: 25%;
+    left: 0;
+    width: 100%;
+}
+
+.sectionUcapan .kananAtasUcapan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.sectionUcapan .kananBawahUcapan {
+    position: absolute;
+    top: 270px;
+    right: 0;
+    z-index: -9;
+}
+
+.box {
+    background-color: #ebd4c6;
+    padding: 30px;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.box2 {
+    background-color: #ebd4c6;
+    padding: 30px;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.sectionKado .containerKado {
+    position:absolute;
+    transition: 1s;
+    width: 100%;
+}
+
+.sectionKado .containerKado img{
+    transition: 0.6s;
+    margin: auto;
+    cursor: pointer;
+    width: 250px;
+}
+
+.sectionKado .containerKado img:hover {
+    transform: scale(1.2);
+}
+
+.sectionKado .containerIsiKado {
+    position: absolute;
+    top: 150px;
+    right: -150%;
+    transition: 1s;
+}
+
+.sectionKado .containerIsiKado img{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.sectionKado .kananAtasKado {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.card img {
+    min-height: 150px;
+    object-fit: cover;
+    border-radius: 30px 30px 0 0px;
+}
+
+.card h5{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+.card h6 {
+    font-family: "Dancing Script", cursive;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f1e4da;
+    height: 400px;
+}
+
+.card-body {
+    overflow: auto;
+}
+
+.sectionCinema .kananAtasCinema {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.sectionCinema .tengahCinema {
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    z-index: -9;
+}
+
+.sectionJalan .containerMotor {
+    position:absolute;
+    left: 32%;
+    transition: 1s;
+}
+
+.sectionJalan .containerMotor img{
+    transition: 0.6s;
+    cursor: pointer;
+    width: 400px;
+}
+
+.sectionJalan .containerMotor .motor:hover {
+    transform: translateX(-50px);
+}
+
+.sectionJalan .containerIsiMotor {
+    position: absolute;
+    top: 150px;
+    right: -150%;
+    transition: 1s;
+}
+
+.sectionJalan .containerIsiMotor video{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sectionJalan .kananAtasJalan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.sectionGame .games {
+    margin-top: -50px;
+    width: 60%;
+}
+
+.sectionAzka img {
+    margin-top: -65px;
+}
+
+.sectionAzka .kananAtasAzka {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: 999;
+    transition: 1s;
+    background-color: #C98860;
+}
+
+
+.overlay i {
+    font-size: 100px;
+    color: white;
+    position: relative;
+    top: 45%;
+    left: 45%;
+    cursor: pointer;
+}
